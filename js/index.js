@@ -1,3 +1,35 @@
+// Verificar si boxhello ya fue vista
+const hasBoxHelloBeenSeen = localStorage.getItem('boxhelloSeen');
+
+if (!hasBoxHelloBeenSeen) {
+  // Mostrar boxhello y ocultar loading
+  document.querySelector('.boxwelcome').style.display = 'flex';
+  document.querySelector('#loading-screen').style.display = 'none';
+} else {
+  // Ocultar boxhello y mostrar loading
+  document.querySelector('.boxwelcome').style.display = 'none';
+  document.querySelector('#loading-screen').style.display = 'flex';
+}
+
+// Botón para ocultar boxhello y mostrar loading
+const logocarta = document.querySelector(".logocarta");
+logocarta.addEventListener('click', () => {
+  // Ocultar boxhello y mostrar loading
+  document.querySelector('.boxwelcome').style.display = 'none';
+  document.querySelector('#loading-screen').style.display = 'flex';
+
+  // Guardar en local storage que boxhello ha sido vista
+  localStorage.setItem('boxhelloSeen', 'true');
+});
+
+
+
+
+
+
+
+
+
 var media = [
     { type: "video", source: "videos/valeriaclip.mp4", titulo: "Valeria", descripcion: "En otra casa" },
     { type: "video", source: "videos/yotepago.mp4", titulo: "Yo te pago. Jajaja.", descripcion: "En otra casa" },
