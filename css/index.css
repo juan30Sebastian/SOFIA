@@ -135,10 +135,30 @@ body {
     display: none;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     z-index: 9999;
     opacity: 1;
     transition: opacity 0.5s ease;
   }
+
+  #logotiktok {
+    width: 10%;
+    height: 23%;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    animation: animarbordeslogotiktok 1s linear infinite;
+  }
+
+  @keyframes animarbordeslogotiktok {
+    0%{border-color: gray;}
+    20%{border-color: green;}
+    40%{border-color: purple;}
+    60%{border-color: blue;}
+    80%{border-color: yellow;}
+    100%{border-color: red;}
+  } 
+
 
   #loading-screen-text {
     font-size: 54px;
@@ -208,3 +228,78 @@ body {
     0%{width: 20%; height: 5%}
     100%{width: 30%; height: 15%;}
   }
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 1000px){
+    
+  .boxwelcome {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, black, rgb(37, 40, 80));
+    position: fixed;
+    left: 0;
+    top: 80;
+    z-index:  9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .card {
+    width: 45%;
+    height: 80%;
+    border-radius: 7%;
+    animation: animarbordes 2s linear infinite;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    text-align: center;
+    background-image: url(../imagenes/fondos/happy.jpg);
+    background-size: 95%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  @keyframes                           animarbordes {
+    0%{border-color: gray;}
+    20%{border-color: green;}
+    40%{border-color: purple;}
+    60%{border-color: blue;}
+    80%{border-color: yellow;}
+    100%{border-color: red;}
+  } 
+  .carta {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+  }
+  .logocarta {
+    width: 30%;
+    height: 15%;
+    transform: rotatez(12deg);
+    animation:  animarcarta 1s linear infinite alternate;
+  }
+
+  @keyframes animarcarta {
+    0%{width: 20%; height: 5%}
+    100%{width: 30%; height: 15%;}
+  }
+  
+  #logotiktok {
+    width: 20%;
+    height: 23%;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    animation: animarbordeslogotiktok 1s linear infinite;
+  }
+
+
+
+}

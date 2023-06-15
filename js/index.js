@@ -1,3 +1,25 @@
+// Verifica si la preferencia ya está guardada en localStorage
+var fullscreenPreference = localStorage.getItem('fullscreenPreference');
+
+// Si la preferencia no existe o es falsa, solicita el modo de pantalla completa
+if (!fullscreenPreference || fullscreenPreference === 'false') {
+  var element = document.documentElement || document.body;
+  
+  if (element.requestFullscreen) {
+    element.requestFullscreen();
+  } else if (element.mozRequestFullScreen) {
+    element.mozRequestFullScreen();
+  } else if (element.webkitRequestFullscreen) {
+    element.webkitRequestFullscreen();
+  } else if (element.msRequestFullscreen) {
+    element.msRequestFullscreen();
+  }
+  
+    // Guarda la preferencia en localStorage como verdadera
+  localStorage.setItem('fullscreenPreference', 'true');
+}
+
+
 // Verificar si boxhello ya fue vista
 const hasBoxHelloBeenSeen = localStorage.getItem('boxhelloSeen');
 
