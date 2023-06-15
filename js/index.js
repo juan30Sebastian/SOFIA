@@ -31,26 +31,27 @@ logocarta.addEventListener('click', () => {
 
 
 var media = [
-    { type: "video", source: "videos/valeriaclip.mp4", titulo: "Valeria", descripcion: "En otra casa" },
-    { type: "video", source: "videos/yotepago.mp4", titulo: "Yo te pago. Jajaja.", descripcion: "En otra casa" },
-    { type: "video", source: "videos/mojada.mp4", titulo: "Mojada", descripcion: "En otra casa" },
-    { type: "video", source: "videos/tequieroamorir.mp4", titulo: "Te quiero a morir", descripcion: "En otra casa" },
-    { type: "video", source: "videos/entuquerres.mp4", titulo: "En tuquerres", descripcion: "En otra casa" },
-    { type: "video", source: "videos/valeriacover.mp4", titulo: "Valeria cover", descripcion: "En otra casa" },
-    { type: "video", source: "videos/coleccionistadecanciones.mp4", titulo: "Coleccionista de canciones", descripcion: "En otra casa" },
-    { type: "video", source: "videos/poramarteasi.mp4", titulo: "Por amarte asi.", descripcion: "En otra casa" },
-    { type: "video", source: "videos/jaquematejuanse.mp4", titulo: "Jaquemate", descripcion: "En otra casa" },
-    { type: "video", source: "videos/yonomedoyporvencido.mp4", titulo: "Yo no me doy por vencido", descripcion: "En otra casa" },
-    { type: "video", source: "videos/lalocuraautomatica.mp4", titulo: "La locura automatica", descripcion: "En otra casa" },
-    { type: "video", source: "videos/dequemesirvelavida.mp4", titulo: "De que me sirve la vida", descripcion: "En otra casa" },
-    { type: "video", source: "videos/suena.mp4", titulo: "Sueña", descripcion: "En otra casa" },
-    { type: "video", source: "videos/sinotehubierasido.mp4", titulo: "Si no te hubieras ido", descripcion: "En otra casa" },
-    { type: "video", source: "videos/lalocuraautomatica1.mp4", titulo: "La locura automatica", descripcion: "En otra casa" },
-    { type: "video", source: "videos/megustas.mp4", titulo: "Me gustas", descripcion: "En otra casa" },
+    { type: "video", source: "videos/valeriaclip.mp4", titulo: "Valeria", descripcion: "Recuerdo ese momento en el que miraba videos en TikTok, y de repente apareció uno con una canción de Dvicio. No puedo recordar exactamente cuál era esa canción, pero algo me impulsó a explorar la biblioteca de TikTok en busca de más canciones de esa banda. Fue entonces cuando vi tu nombre, Valeria. Sin dudarlo, hice clic en él y escuché un fragmento corto de una de sus melodías. Luego, decidí buscarla en Spotify y quedé encantado. Su sonido logró cautivarme de una manera inexplicable, convirtiéndose en la canción que más me hace pensar en ti." },
+    { type: "video", source: "videos/yotepago.mp4", titulo: "Yo te pago. Jajaja.", descripcion: "En aquel día, tu equipo estaba jugando y me contaste que iban perdiendo. Al principio, me enviaste una foto, pero te dije que una imagen no transmitía emociones, así que me mandaste este video. Me emociona escuchar tu voz llena de pasión, animando a uno de tus compañeros a ingresar al campo de juego. Creo que eso es lo que estaba sucediendo. Yo hubiera querido estar para que me pagaras jajaj. Al final no sé si tu quipo gano el campeonato" },
+    { type: "video", source: "videos/mojada.mp4", titulo: "Mojada", descripcion: "No sé cómo fue que en aquel día nos encontraste a los dos en la heladería. Mi mente se apresuró a imaginar dónde estabas y cuando te invité a venir a comer helado, dijiste que estabas mojada y me contaste una fatídica experiencia. Qué lástima. Me hubiera encantado pasar un rato contigo compartiendo helado. Siempre me preguntaré por qué aún los tienes como amigos, y yo, que no te he hecho nada malo, solo hacerte reír, me dejaste de hablar." },
+    { type: "video", source: "videos/tequieroamorir.mp4", titulo: "Te quiero a morir", descripcion: "Con esta canción conocí a Dvicio, una de mis bandas favoritas. Recuerdo haberla publicado como estado en WhatsApp cuando estaba profundamente enamorado de ti, porque era cierto: te quiero a morir. Ahora, guardo un gran aprecio por ti y realmente te extraño. Cuando te pedí que fueras mi mejor amiga, te fuiste y pensé que te quedarías para aprovechar la promesa que me hiciste de estar ahí para mí en todo momento, incluso para desahogarme cuando estuviera enfadado. ¡Jaja!" },
+    { type: "video", source: "videos/entuquerres.mp4", titulo: "En tuquerres", descripcion: "Recuerdo con cariño aquel momento. Estabas en un cumpleaños en Tuquerres y me enviaste un audio en el que describías el show que se estaba presentando. Me contaste cómo tus primos te habían jugado una broma y habían derramado ají sobre ti. En ese momento llevábamos apenas 16 días conociéndonos y ni siquiera sabía quién era Karla. Sin embargo, esa anécdota se grabó en mi memoria, como una chispa de alegría en el inicio de nuestra historia." },
+    { type: "video", source: "videos/valeriacover.mp4", titulo: "Valeria cover", descripcion: "Deste cover solo he de decir que es un cover muy bonito. lo demas lo he puesto en otro video similar" },
+    { type: "video", source: "videos/coleccionistadecanciones.mp4", titulo: "Coleccionista de canciones", descripcion: "Dedicatoria (La que me faltó enviarte en mis tiempos de Romeo)" },
+    { type: "video", source: "videos/poramarteasi.mp4", titulo: "Por amarte asi.", descripcion: "Dedicatoria (La que me faltó enviarte en mis tiempos de Romeo)" },
+    { type: "video", source: "videos/jaquematejuanse.mp4", titulo: "Jaquemate", descripcion: "Esta canción, al igual que muchas otras, la descubrí en TikTok y decidí compartirla en mi estado de WhatsApp. Dejé un mensaje encriptado para ver si podías descubrir a quién iba dedicado. Tu respuesta fue que estaba enamorado pero no sabías de quién. ¡Claro, cómo no! Jajajá. Luego, te diste cuenta de que tu nombre estaba oculto dentro del mensaje, y me reprochaste que escribiera Sofia sin tilde. Pero para mí, eso no importaba. Al final, no sé si desde el principio sabías a quién iba dirigido ese comentario o simplemente fingiste ignorarlo. Jajaja." },
+    { type: "video", source: "videos/yonomedoyporvencido.mp4", titulo: "Yo no me doy por vencido", descripcion: "Dedicatoria (La que me faltó enviarte en mis tiempos de Romeo)" },
+    { type: "video", source: "videos/lalocuraautomatica.mp4", titulo: "La locura automatica", descripcion: "Dedicatoria (Ahora que no estas)" },
+    { type: "video", source: "videos/dequemesirvelavida.mp4", titulo: "De que me sirve la vida", descripcion: "Jamás imaginaste que eras la única compañía con la que compartía mis días, conversando sobre tus locuras y tus andanzas. No suelo ser muy asiduo a las redes sociales, pero cuando te conocí, me convertí en un participante activo. Solo me conectaba por ti. Hoy en día, esa frecuencia ha disminuido, pero conservo la esperanza de que vuelvas. En realidad, me conecto ocasionalmente para comprobar si has respondido en Messenger o WhatsApp." },
+    { type: "video", source: "videos/suena.mp4", titulo: "Sueña", descripcion: "Esta canción apareció en mi lista de sugerencias en Spotify y me cautivó desde el principio con su encantadora combinación de trompeta y trombón. Quedé completamente enganchado/a mientras la escuchaba y supe de inmediato que era para la niña más hermosa. No pude resistirme y te la envié. Recuerdo que en esa ocasión me diste una respuesta de audio, explicando que no contestabas porque no usabas el celular en la calle. Me pareció extraño, ya que siempre te he conocido como una chica despreocupada."},
+    { type: "video", source: "videos/sinotehubierasido.mp4", titulo: "Si no te hubieras ido", descripcion: "Dedicatoria (Ahora que no estas)" },
+    { type: "video", source: "videos/lalocuraautomatica1.mp4", titulo: "La locura automatica", descripcion: "Dedicatoria (Ahora que no estas)" },
+    
+    /*{ type: "video", source: "videos/megustas.mp4", titulo: "Me gustas", descripcion: "En otra casa" },
     { type: "video", source: "videos/buenosaires.mp4", titulo: "Buenos aires", descripcion: "En otra casa" },
     { type: "video", source: "videos/comoyonadietehaamado.mp4", titulo: "Como yo nadie te ha amado", descripcion: "En otra casa" },
     { type: "video", source: "videos/todoloquehagolohagoporti.mp4", titulo: "Todo lo que hago lo hago por ti", descripcion: "En otra casa" },
-    
+    */
     
     
     
@@ -70,7 +71,9 @@ var media = [
       { type: "image", source: "imagenes/sontelasverdad.jpg", titulo: "¿Son telas verdad?", descripcion: "De esta foto, no puedo brindar muchos detalles. Solo sé que estabas comprando tela junto a tu madre, y me imagino que era para tejer. Un aspecto que recuerdo de tu madre es su destreza como modista." },
       { type: "image", source: "imagenes/mipasion.jpg", titulo: "Mi pasión", descripcion: "Una de las cosas que me apasiona es la literatura y la escritura. Desde que era niño, siempre he disfrutado imaginando historias y plasmándolas en papel. Este fervor por el arte de escribir nació gracias a mi profesora de primaria, quien solía asignarnos la tarea de escribir un cuento todos los viernes por la mañana. Aún conservo algunos de esos cuentos, y al leerlos, no puedo evitar sonreír al recordar cómo era mi imaginación de niño. Mi interés por la literatura se fortaleció aún más cuando Daniel repitió el año y me quedé sin compañía. Fue en ese momento cuando conocí a un compañero con el que nunca antes había interactuado. Él despertó en mí el deseo de leer, ya que lo veía sumergido en libros mucho más que yo. Comenzamos a compartir nuestras lecturas y yo le prestaba mis libros. Lo más hermoso era que leíamos un libro juntos durante los momentos de recreo, y si uno de nosotros faltaba, el otro no podía seguir leyendo. El último libro que leímos juntos fue El ruido de las cosas al caer. Ahora quisiera que tu fueras mi lectora numero uno de mis historias." },
       { type: "image", source: "imagenes/quegoce.jpg", titulo: "¡Qué goce!", descripcion: "En aquella tarde, me causaste una gran risa al actuar de manera exagerada por atrapar un cuy muerto. Me dio pena ver cómo tu hermana tuvo que encargarse de todo el trabajo, a pesar de que eres la hermana mayor. Fue divertido escucharlas gritar en cada paso que daban mientras enterraban al cuy. Incluso mencioné que los vecinos debieron alarmarse por el escándalo que montaron. No sé si podré subir los audios para revivir esos momentos jajaja." },
-      { type: "image", source: "imagenes/aldesmadre.jpg", titulo: "Al desmadre", descripcion: "... " },
+      
+      
+      /*{ type: "image", source: "imagenes/aldesmadre.jpg", titulo: "Al desmadre", descripcion: "... " },
       { type: "image", source: "imagenes/inseparables.jpg", titulo: "Inseparables", descripcion: "... " },
       { type: "image", source: "imagenes/sancipriano.jpg", titulo: "San cipriano", descripcion: "... " },
       { type: "image", source: "imagenes/floresdepapel.jpg", titulo: "Flores de papel", descripcion: "... " },
@@ -104,7 +107,7 @@ var media = [
       { type: "image", source: "imagenes/ahoraonunca.jpg", titulo: "Ahora o numca", descripcion: "... " },
       { type: "image", source: "imagenes/comoteburlabas.jpg", titulo: "Como te burlabas", descripcion: "... " },
             
-    
+    */
     
     
     ];
